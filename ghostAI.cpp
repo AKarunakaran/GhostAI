@@ -182,12 +182,12 @@ void play(trieNode* words) {
 				}
 			}
 			if(find(words, playWord) == 1) {
-				cout << "Well shit. Something must've gone wrong, but you win. Good job." << endl;
+				cout << "Well crap. Something must've gone wrong, but you win. Good job." << endl;
 			} else {
 				cout << "Ha. Not a word. I win." << endl;
 			}
 		} else if(turn == 1) {
-			cout << "Well something definitely fucked up, because this was not supposed to happen. I guess you win." << endl;
+			cout << "Well something definitely messed up, because this was not supposed to happen. I guess you win." << endl;
 		} else {
 			cout << "Good job. One of you idiots spelled a made up word. I'm out." << endl;
 		}
@@ -214,7 +214,7 @@ void play(trieNode* words) {
 			int loseResponse = rand() % 2;
 			switch(loseResponse) {
 				case 0:
-					cout << "Wow. You won. Congratulations, you must actually be an enormous fucking nerd." << endl;
+					cout << "Wow. You won. Congratulations, you must actually be an enormous nerd." << endl;
 					break;
 				case 1:
 					cout << "Well, you won. Knowing you, you probably cheated. Congrats?" << endl;

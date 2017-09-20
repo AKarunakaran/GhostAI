@@ -3,4 +3,4 @@ Maintainer: Aman Karunakaran
 Version: 1.0
 Description: AI to play word game “ghost”. Rules can be found at https://en.wikipedia.org/wiki/Ghost_(game). Minimum valid word length is 3 letters.
 Usage: Type ‘./ghost’ into terminal, without quotes. Program only supports two players right now, but should play perfectly in that case. To challenge, type ‘?’ without quotes when prompted for a letter.
-Notes: Dictionary used is Mac OS X file words.txt. If you want to use your own, then create a file with all desired words named ‘words.txt’. Note that words with any capital letters are thrown out.
+Notes: Dictionary used is Mac OS X file words.txt. If you want to use your own, then create a file with all desired words named ‘words.txt’. Note that words with any capital letters are thrown out. Also, I made this initially without the intention of people seeing it, so some of the win responses are quite rude. Be warned.
